@@ -36,9 +36,9 @@ export default function Home() {
 
 {/* EJEMPLO FORMULARIO */}
       <form action="" class='bg-white w-80 mx-auto mt-8 rounded-lg p-6'>
-        <input class='' type="text" placeholder="Nombre"></input>
-        <input class='' type="email" placeholder="Email"></input>
-        <input class='' type="password" placeholder="Contraseña"></input>
+        <input class='border border-gray-300 w-full px-3 py-2 mb-4 rounded-md' type="text" placeholder="Nombre"></input>
+        <input class='border border-gray-300 w-full px-3 py-2 mb-4 rounded-md' type="email" placeholder="Email"></input>
+        <input class='border border-gray-300 w-full px-3 py-2 mb-4 rounded-md' type="password" placeholder="Contraseña"></input>
         <input class='' type="submit" value="Inicia sesión"></input>
       </form>
 
