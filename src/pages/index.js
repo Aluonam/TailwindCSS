@@ -41,7 +41,8 @@ export default function Home() {
         <input class='border border-gray-300 w-full px-3 py-2 mb-4 rounded-md' type="password" placeholder="Contraseña"></input>
 
         <input class='border border-gray-300 w-full px-3 py-2 mb-4 rounded-md disabled:bg-red-200' type="text" placeholder="No puedes escribir" disabled></input>
-       
+        <input class='border border-gray-300 w-full px-3 py-2 mb-4 rounded-md  invalid:focus:ring-red-400 peer' type="email" placeholder="Email incorrecto"></input>
+        <p class='text-red-400 hidden peer-invalid:block'>El correo es incorrecto</p>
 
         <input class='bg-blue-500 w-full py-2 text-white rounded-md cursor-pointer hover:bg-blue-400' type="submit" value="Inicia sesión"></input>
       </form>
