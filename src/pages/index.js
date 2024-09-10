@@ -39,7 +39,8 @@ export default function Home() {
         <input class='border border-gray-300 w-full px-3 py-2 mb-4 rounded-md' type="text" placeholder="Nombre"></input>
         <input class='border border-gray-300 w-full px-3 py-2 mb-4 rounded-md' type="email" placeholder="Email"></input>
         <input class='border border-gray-300 w-full px-3 py-2 mb-4 rounded-md' type="password" placeholder="Contraseña"></input>
-        <input class='' type="submit" value="Inicia sesión"></input>
+        
+        <input class='bg-blue-500 w-full py-2 text-white rounded-md cursor-pointer hover:bg-blue-400' type="submit" value="Inicia sesión"></input>
       </form>
 
 
