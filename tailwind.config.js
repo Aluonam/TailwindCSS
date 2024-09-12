@@ -16,6 +16,7 @@ module.exports = {
         'my-black': '#000814',
         'azul-oscuro': '#0d1b3e',
       }
+     
     },
   },
   plugins: [],
